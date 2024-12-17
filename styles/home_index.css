@@ -1,0 +1,164 @@
+/* General styles */
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #2d3748;
+    color: white;
+    padding: 1rem;
+  }
+  
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header nav ul {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  header nav ul li a:hover {
+    color: #a0aec0;
+  }
+  
+  /* Hero section styles */
+  .hero-section {
+    position: relative;
+    background-color: #1a202c;
+    color: white;
+    padding: 5rem 0;
+    text-align: center;
+  }
+  
+  .hero-section img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+  }
+  
+  .hero-section .container {
+    position: relative;
+    z-index: 10;
+  }
+  
+  .hero-section h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-section p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-section a {
+    background-color: #3182ce;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .hero-section a:hover {
+    background-color: #2b6cb0;
+  }
+  
+  /* Services overview styles */
+  .services-overview {
+    padding: 5rem 0;
+    background-color: #f7fafc;
+  }
+  
+  .services-overview .container {
+    text-align: center;
+  }
+  
+  .services-overview h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  
+  .services-overview .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  @media (min-width: 768px) {
+    .services-overview .grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  .services-overview .card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  }
+  
+  .services-overview .card img {
+    width: 100%;
+    height: 12rem;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+  
+  .services-overview .card h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .services-overview .card p {
+    font-size: 1rem;
+    color: #4a5568;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #2d3748;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  footer .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  footer .social-links a {
+    color: white;
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+  }
+  
+  footer .social-links a:hover {
+    color: #a0aec0;
+  }
+  
+  footer p {
+    margin-top: 1rem;
+    font-size: 0.875rem;
+    color: #a0aec0;
+  }

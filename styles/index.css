@@ -1,0 +1,101 @@
+/* General styles */
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #2d3748;
+    color: white;
+    padding: 1rem;
+  }
+  
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header nav ul {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  header nav ul li a:hover {
+    color: #a0aec0;
+  }
+  
+  /* Contact section styles */
+  .contact-section {
+    padding: 5rem 0;
+    background-color: #f7fafc;
+  }
+  
+  .contact-section .container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .contact-section form .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .contact-section form .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #4a5568;
+  }
+  
+  .contact-section form .form-group input,
+  .contact-section form .form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #cbd5e0;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    color: #4a5568;
+  }
+  
+  .contact-section form .form-group input:focus,
+  .contact-section form .form-group textarea:focus {
+    outline: none;
+    border-color: #3182ce;
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+  }
+  
+  .contact-section form .form-group textarea {
+    resize: vertical;
+  }
+  
+  .contact-section form .form-group button {
+    background-color: #3182ce;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-section form .form-group button:hover {
+    background-color: #2b6cb0;
+  }
