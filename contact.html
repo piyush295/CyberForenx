@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>Contact - CyberForenx Academy</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles/index.css"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+</head>
+<body class="font-roboto">
+  <!-- Header -->
+  <header class="bg-gray-800 text-white p-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <div class="text-2xl font-bold">CyberForenx Academy</div>
+      <nav>
+        <ul class="flex space-x-4">
+          <li><a class="hover:text-gray-400" href="index.html">Home</a></li>
+          <li><a class="hover:text-gray-400" href="about.html">About</a></li>
+          <li><a class="hover:text-gray-400" href="services.html">Services</a></li>
+          <li><a class="hover:text-gray-400" href="contact.html">Contact</a></li>
+          <li><a class="hover:text-gray-400" href="login.html">Login</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- Contact Section -->
+  <section class="contact-section">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input id="name" type="text" placeholder="Name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input id="email" type="email" placeholder="Email">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" rows="4" placeholder="Your message"></textarea>
+        </div>
+        <div class="form-group">
+          <button type="button">Send</button>
+        </div>
+      </form>
+    </div>
+  </section>
+  <script src="contact.js"></script>
+</body>
+</html>
